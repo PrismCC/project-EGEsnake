@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.23)
 project(EGEsnake)
 
 set(CMAKE_CXX_STANDARD 20)
-set(EGE_INC_DIR D:/BaiduNetdiskDownload/Programme/EGE20.08/include)
-set(EGE_LINK_DIR D:/BaiduNetdiskDownload/Programme/EGE20.08/lib/mingw64)
+set(EGE_INC_DIR ./include)
+set(EGE_LINK_DIR ./lib/mingw64)
 
 set(CMAKE_CXX_FLAGS -mwindows)
 
